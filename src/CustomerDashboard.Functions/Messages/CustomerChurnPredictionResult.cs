@@ -6,6 +6,8 @@ namespace CustomerDashboard.Functions.Messages
 {
     public class CustomerChurnPredictionResult
     {
-        public double Probability {get;set;}
+        public float Probability { get; set; }
+        public bool PredictedLabel { get; set; }
+        public float Score { get; set; }
     }
 }
