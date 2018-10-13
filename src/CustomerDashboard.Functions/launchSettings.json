@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "FunctionsCLI": {
-      "commandName": "Executable",
-      "executablePath": "dotnet.exe",
-      "commandLineArgs": "%userprofile%\\AppData\\Local\\Azure.Functions.Cli\\2.0.3\\func.dll host start"
-    }
-  }
-}
